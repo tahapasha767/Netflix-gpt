@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from './Header'
 
 function Browser() {
   return (
-    <div>Browser</div>
+    <div className='bg-black  sm: w-screen sm: h-screen'>
+      <Header/>
+      
+    
+    </div>
   )
 }
 
